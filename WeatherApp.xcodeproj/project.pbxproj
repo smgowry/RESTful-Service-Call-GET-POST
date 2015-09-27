@@ -10,10 +10,13 @@
 		C9DB70C11B59CCF20037842D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DB70C01B59CCF20037842D /* main.m */; };
 		C9DB70C41B59CCF20037842D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DB70C31B59CCF20037842D /* AppDelegate.m */; };
 		C9DB70C71B59CCF20037842D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DB70C61B59CCF20037842D /* ViewController.m */; };
-		C9DB70CA1B59CCF20037842D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9DB70C81B59CCF20037842D /* Main.storyboard */; };
 		C9DB70CC1B59CCF20037842D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9DB70CB1B59CCF20037842D /* Images.xcassets */; };
 		C9DB70CF1B59CCF20037842D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9DB70CD1B59CCF20037842D /* LaunchScreen.xib */; };
 		C9DB70DB1B59CCF20037842D /* WeatherAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DB70DA1B59CCF20037842D /* WeatherAppTests.m */; };
+		C9DB70E51B5A0E9A0037842D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9DB70E41B5A0E9A0037842D /* Main.storyboard */; };
+		C9DB70FB1B5B38DA0037842D /* rain.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C9DB70FA1B5B38DA0037842D /* rain.jpeg */; };
+		C9DB70FD1B5B48280037842D /* sunny.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C9DB70FC1B5B48280037842D /* sunny.jpeg */; };
+		C9DB70FF1B5B48E80037842D /* allweather.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C9DB70FE1B5B48E80037842D /* allweather.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +37,15 @@
 		C9DB70C31B59CCF20037842D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C9DB70C51B59CCF20037842D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C9DB70C61B59CCF20037842D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C9DB70C91B59CCF20037842D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9DB70CB1B59CCF20037842D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C9DB70CE1B59CCF20037842D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C9DB70D41B59CCF20037842D /* WeatherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9DB70D91B59CCF20037842D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9DB70DA1B59CCF20037842D /* WeatherAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherAppTests.m; sourceTree = "<group>"; };
+		C9DB70E41B5A0E9A0037842D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C9DB70FA1B5B38DA0037842D /* rain.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rain.jpeg; sourceTree = "<group>"; };
+		C9DB70FC1B5B48280037842D /* sunny.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunny.jpeg; sourceTree = "<group>"; };
+		C9DB70FE1B5B48E80037842D /* allweather.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = allweather.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +91,11 @@
 				C9DB70C31B59CCF20037842D /* AppDelegate.m */,
 				C9DB70C51B59CCF20037842D /* ViewController.h */,
 				C9DB70C61B59CCF20037842D /* ViewController.m */,
-				C9DB70C81B59CCF20037842D /* Main.storyboard */,
+				C9DB70E41B5A0E9A0037842D /* Main.storyboard */,
 				C9DB70CB1B59CCF20037842D /* Images.xcassets */,
+				C9DB70FA1B5B38DA0037842D /* rain.jpeg */,
+				C9DB70FC1B5B48280037842D /* sunny.jpeg */,
+				C9DB70FE1B5B48E80037842D /* allweather.jpeg */,
 				C9DB70CD1B59CCF20037842D /* LaunchScreen.xib */,
 				C9DB70BE1B59CCF20037842D /* Supporting Files */,
 			);
@@ -199,9 +208,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9DB70CA1B59CCF20037842D /* Main.storyboard in Resources */,
+				C9DB70E51B5A0E9A0037842D /* Main.storyboard in Resources */,
 				C9DB70CF1B59CCF20037842D /* LaunchScreen.xib in Resources */,
+				C9DB70FD1B5B48280037842D /* sunny.jpeg in Resources */,
 				C9DB70CC1B59CCF20037842D /* Images.xcassets in Resources */,
+				C9DB70FF1B5B48E80037842D /* allweather.jpeg in Resources */,
+				C9DB70FB1B5B38DA0037842D /* rain.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +256,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C9DB70C81B59CCF20037842D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C9DB70C91B59CCF20037842D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C9DB70CD1B59CCF20037842D /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -416,6 +420,7 @@
 				C9DB70E01B59CCF20037842D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9DB70E11B59CCF20037842D /* Build configuration list for PBXNativeTarget "WeatherAppTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +429,7 @@
 				C9DB70E31B59CCF20037842D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
