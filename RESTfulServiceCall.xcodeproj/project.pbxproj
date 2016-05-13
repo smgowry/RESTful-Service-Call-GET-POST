@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BB927381CE65A030039C29F /* background_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BB927371CE65A030039C29F /* background_image.png */; };
+		0BB9273A1CE671640039C29F /* background_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BB927391CE671640039C29F /* background_image.png */; };
 		C9DB70C11B59CCF20037842D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DB70C01B59CCF20037842D /* main.m */; };
 		C9DB70C41B59CCF20037842D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DB70C31B59CCF20037842D /* AppDelegate.m */; };
 		C9DB70C71B59CCF20037842D /* GSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DB70C61B59CCF20037842D /* GSViewController.m */; };
@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BB927371CE65A030039C29F /* background_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_image.png; sourceTree = "<group>"; };
+		0BB927391CE671640039C29F /* background_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_image.png; sourceTree = "<group>"; };
 		C9DB70BB1B59CCF20037842D /* RESTfulServiceCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RESTfulServiceCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9DB70BF1B59CCF20037842D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9DB70C01B59CCF20037842D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -65,8 +65,8 @@
 		C9DB70B21B59CCF20037842D = {
 			isa = PBXGroup;
 			children = (
-				C9DB70BD1B59CCF20037842D /* WeatherApp */,
-				C9DB70D71B59CCF20037842D /* WeatherAppTests */,
+				C9DB70BD1B59CCF20037842D /* RESTfulService */,
+				C9DB70D71B59CCF20037842D /* RESTfulServiceTests */,
 				C9DB70BC1B59CCF20037842D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,7 +80,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C9DB70BD1B59CCF20037842D /* WeatherApp */ = {
+		C9DB70BD1B59CCF20037842D /* RESTfulService */ = {
 			isa = PBXGroup;
 			children = (
 				C9DB70C21B59CCF20037842D /* AppDelegate.h */,
@@ -88,11 +88,12 @@
 				C9DB70C51B59CCF20037842D /* GSViewController.h */,
 				C9DB70C61B59CCF20037842D /* GSViewController.m */,
 				C9DB70E41B5A0E9A0037842D /* Main.storyboard */,
-				0BB927371CE65A030039C29F /* background_image.png */,
 				C9DB70CB1B59CCF20037842D /* Images.xcassets */,
+				0BB927391CE671640039C29F /* background_image.png */,
 				C9DB70CD1B59CCF20037842D /* LaunchScreen.xib */,
 				C9DB70BE1B59CCF20037842D /* Supporting Files */,
 			);
+			name = RESTfulService;
 			path = WeatherApp;
 			sourceTree = "<group>";
 		};
@@ -105,12 +106,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C9DB70D71B59CCF20037842D /* WeatherAppTests */ = {
+		C9DB70D71B59CCF20037842D /* RESTfulServiceTests */ = {
 			isa = PBXGroup;
 			children = (
 				C9DB70DA1B59CCF20037842D /* WeatherAppTests.m */,
 				C9DB70D81B59CCF20037842D /* Supporting Files */,
 			);
+			name = RESTfulServiceTests;
 			path = WeatherAppTests;
 			sourceTree = "<group>";
 		};
@@ -203,9 +205,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9DB70E51B5A0E9A0037842D /* Main.storyboard in Resources */,
-				0BB927381CE65A030039C29F /* background_image.png in Resources */,
 				C9DB70CF1B59CCF20037842D /* LaunchScreen.xib in Resources */,
 				C9DB70CC1B59CCF20037842D /* Images.xcassets in Resources */,
+				0BB9273A1CE671640039C29F /* background_image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C9DB70BA1B59CCF20037842D"
-               BuildableName = "RestApi .app"
+               BuildableName = "RESTfulServiceCall.app"
                BlueprintName = "RESTfulServiceCall"
                ReferencedContainer = "container:RESTfulServiceCall.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C9DB70BA1B59CCF20037842D"
-            BuildableName = "RestApi .app"
+            BuildableName = "RESTfulServiceCall.app"
             BlueprintName = "RESTfulServiceCall"
             ReferencedContainer = "container:RESTfulServiceCall.xcodeproj">
          </BuildableReference>
@@ -66,7 +66,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C9DB70BA1B59CCF20037842D"
-            BuildableName = "RestApi .app"
+            BuildableName = "RESTfulServiceCall.app"
             BlueprintName = "RESTfulServiceCall"
             ReferencedContainer = "container:RESTfulServiceCall.xcodeproj">
          </BuildableReference>
@@ -85,7 +85,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C9DB70BA1B59CCF20037842D"
-            BuildableName = "RestApi .app"
+            BuildableName = "RESTfulServiceCall.app"
             BlueprintName = "RESTfulServiceCall"
             ReferencedContainer = "container:RESTfulServiceCall.xcodeproj">
          </BuildableReference>
