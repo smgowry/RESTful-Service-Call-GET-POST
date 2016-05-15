@@ -26,8 +26,11 @@
 
 #pragma mark - GET request.
 -(void)serviceCallGET{
+    //If this url is giving empty data, make a new request by using following url and use the new url.
+    //https://www.zipcodeapi.com/API#zipToLoc.
     
-    NSURL* url = [NSURL URLWithString:[NSString stringWithFormat:@"https://www.zipcodeapi.com/rest/i3EpdrmVp9bwcXfEQyLNDLdD7T90VsbdvQDIi0EHaQdmNt0D2MrFxEjFytGtVSHq/info.json/%@/degrees",zipCodeTextField.text]];
+    NSURL* url = [NSURL URLWithString:[NSString stringWithFormat:@"https://www.zipcodeapi.com/rest/SAnIr1JxhHK2AHvhtnnktflbXcMpn8LgI9ZabIItptvZb0gFoEZSUl3SxPhVY3bH/info.json/%@/degrees",zipCodeTextField.text]];
+    
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     
     NSURLSession *session = [NSURLSession sharedSession];
